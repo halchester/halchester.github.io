@@ -1,4 +1,4 @@
-# Project Name
+# UKKO: Weather and Climate App for Grade (7)
 Learning App for Weather and Climate taught at Grade 7 of State High Schools. I have
 crated this project to help me learn web development using BootStrap, Progressive Web
 App Technologies, JavaScript, CSS,
