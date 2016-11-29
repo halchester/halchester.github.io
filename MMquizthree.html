@@ -20,6 +20,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //Custom Theme files -->
 <!-- js -->
 <script src="js/owl.carousel.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script>
 	$(document).ready(function() { 
 		$("#owl-demo").owlCarousel({ 
@@ -51,6 +53,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //web font -->
 </head>
 <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="MMlesson.html">သင္ခန္းစာမ်ား</a></li>
+            <li><a href="MMforecast.html">မိုးေလ၀သခန္႔မွန္းခ်က္</a></li>
+            <li><a href="MMquiz.html">ေလ့က်င့္ခန္းမ်ား</a></li>
+            <li><a href="MMcontact.html">အေရးေပၚ ဆက္သြယ္ရန္</a></li>
+            <li><a href="MMdisasters.html">သဘာ၀ေဘးအႏၱရာယ္မ်ား</a></li>
+            <li><a href="MMdodont.html">ေဆာင္ရန္ / ေရွာင္ရန္</a></li>
+            <li role="separator" class="divider"></li>
+             <li><a href="index.html">English</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 	<!-- main -->
 	<div class="main-agileits">
 		<h1>Weather and Climate App</h1>
@@ -152,15 +187,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           <input class="quizSubmit;btn btn-default btn-lg btn-block" id="submitButton" onClick="submitQuiz()"
           type="submit" value="Submit" /> 
           </div>
+          <br/>
+          <!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1" style="color:white;"></div>
+	<div class="quizAnswers" id="correctAnswer2" style="color:white;"></div>
+    <div class="quizAnswers" id="correctAnswer3" style="color:white;"></div>
+    <div class="quizAnswers" id="correctAnswer4" style="color:white;"></div>
+    <div class="quizAnswers" id="correctAnswer5" style="color:white;"></div>
 		<br/>
 		<a href="MMquiz.html" role="button" class="btn btn-default btn-lg btn-block">ေနာက္ျပန္သြားရန္</a>
 	  	</div>
-<!--show only wrong answers on submit-->
-    <div class="quizAnswers" id="correctAnswer1"></div>
-	<div class="quizAnswers" id="correctAnswer2"></div>
-    <div class="quizAnswers" id="correctAnswer3"></div>
-    <div class="quizAnswers" id="correctAnswer4"></div>
-    <div class="quizAnswers" id="correctAnswer5"></div>
+
 
 <!--show score upon submit-->
     <div>
