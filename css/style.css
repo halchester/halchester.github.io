@@ -1,4 +1,4 @@
-/*--
+ /*--
 Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -40,6 +40,10 @@ body {
 	-o-background-size: cover;
 	-ms-background-size: cover;
     background-size: cover;
+}
+@font-face{
+    font-family: 'Myanmar Sagar';
+    src: url('font/MyanmarSagar.ttf') format('truetype');
 }
 h1 {
     font-size: 3em;
@@ -254,10 +258,12 @@ h1 {
 }
 }
 .myanmar-unicode{
-    font-family: "Myanmar Sagar", sans-serif;
+    font-family: "Myanmar Sagar", sans-serif ;
+    font-size: 18px;
 }
 .myanmar-zawgyi {
       font-family: 'Zawgyi-One', sans-serif;
+      font-size :18px;
 
 }
 
