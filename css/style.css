@@ -253,4 +253,12 @@ h1 {
     width: 90%;
 }
 }
+.myanmar-unicode{
+    font-family: "Myanmar Sagar", sans-serif;
+}
+.myanmar-zawgyi {
+      font-family: 'Zawgyi-One', sans-serif;
+
+}
+
 /*-- //responsive-design --*/
